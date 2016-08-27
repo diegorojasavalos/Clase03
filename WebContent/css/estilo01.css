@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin : 0 0 0 0;
+	background: #F2F3FE url("../images/fondo.gif") 0 0 repeat-x;
+	font-family: "Verdana", Times, serif;
+	font-style: normal;
+	color: #192666;
+	
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}	
+
+header{
+	position: relative;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	
+}
+
+header #buscador{
+	position: absolute;
+	top: 40px;
+	right: 20px;	
+}
+
+header #buscador fieldset{
+	border: none;
+}
+
+
+footer{
+	clear: both;
+	height:60px;
+	margin-botton: 50px;
+	color: #6685CC;
+	position: relative;
+}
+
+article{
+	width: 100%;
+	margin: 0 5px;
+	background: #F2F5FE;
+}
+
+section{
+	display: inline;
+	float: left;
+	width: 60%;
+	padding: 0;
+	background: #FFF;
+}
+
+
+aside{
+	display: inline;
+	float: left;
+	width: 40%;
+	margin-top: 15px;
+	padding: 0;
+	background: #CED8F9 url("../images/fondo_columna.gif") no-repeat;
+}
+
+
+	
+	
+	
